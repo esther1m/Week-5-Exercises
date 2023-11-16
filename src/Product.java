@@ -1,4 +1,4 @@
-class Product {
+public class Product {
     int id;
     String name;
     int quantity;
@@ -29,5 +29,11 @@ class Product {
     }
     public void setQuantity( int newQuantity){
         this.quantity= newQuantity;
+    }
+
+    public void printProduct(){
+        System.out.println ("This is the name of the product: " + getName());
+        System.out.println ("The product ID is " + getId());
+        System.out.println ("The quantity in stock of the product " + getQuantity());
     }
 }
