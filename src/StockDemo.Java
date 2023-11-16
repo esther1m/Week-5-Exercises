@@ -23,6 +23,11 @@ public class StockDemo {
     public void run(int id, String name, int quantity){
         createProduct(id, name, quantity);
         printStock();
+        System.out.println("this is blah ");
+
+        //comet 
+
+        //commentdhgbd uhhhhe
 
     }
 }
