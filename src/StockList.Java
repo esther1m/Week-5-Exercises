@@ -6,6 +6,7 @@ public class StockList{
 
     public StockList (Product product){
         this.product = product;
+        productList.add(this.product);
     }
 
     public void addProduct (Product product){
