@@ -23,9 +23,11 @@ public class StockDemo {
     public void run(int id, String name, int quantity){
         createProduct(id, name, quantity);
         printStock();
+
+        // this prits ott the taributes of the product
         System.out.println("this is blah ");
 
-        //comet 
+        //comet
 
         //commentdhgbd uhhhhe
 
